@@ -26,7 +26,7 @@ Django
 
 #### Step 1 : Clone the repo and Navigate to Django Application
 
-`git clone https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning.git`
+`git clone https://github.com/Abbishek01/DEEPFAKE_DETECTION_MODEL.git`
 
 #### Step 2: Create virtualenv (optional)
 
