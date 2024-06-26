@@ -7,7 +7,7 @@ To ensure our model performs effectively in real-time scenarios, we evaluate it 
 # 2.  SYSTEM ARCHITECTURE
 
 ![System Architecture (1)](https://github.com/Abbishek01/deep_fake-detection_model-/assets/93364595/1213ab6c-8d2b-401a-b095-969045ace63e)
-# 3. DATASET
+# 3. DATASET 
 To enhance the model's efficiency for real-time prediction, we have compiled data from various sources, including FaceForensics++, the Deepfake Detection Challenge (DFDC), and Celeb-DF. By combining these datasets, we created a new, diverse dataset designed for accurate and real-time detection of various video types. To prevent training bias, our dataset consists of an equal distribution of 50% real and 50% fake videos.
 
 The DFDC dataset includes some videos with altered audio, which are outside the scope of this project. Therefore, we preprocessed the DFDC dataset to exclude audio-altered videos using a Python script.
