@@ -1,4 +1,4 @@
-# DEEPFAKE_DETECTION_MODEL
+
 deepfake detection model using machine learning 
 # 1. INTRODUCTION
 The increasing computational power has significantly enhanced deep learning algorithms, making it easy to create realistic human-synthesized videos, commonly known as deepfakes. To counteract this, we are leveraging Artificial Intelligence to combat the misuse of Artificial Intelligence. Our approach employs a ResNext Convolutional Neural Network to extract frame-level features, which are then used to train a Long Short Term Memory (LSTM)-based Recurrent Neural Network. This network classifies whether a video has been manipulated or is authentic, distinguishing deepfakes from real videos.
@@ -6,14 +6,20 @@ The increasing computational power has significantly enhanced deep learning algo
 To ensure our model performs effectively in real-time scenarios, we evaluate it using a substantial, balanced, and diverse dataset. This dataset is created by combining various available datasets such as FaceForensics++, the Deepfake Detection Challenge, and Celeb-DF. Our results demonstrate that our straightforward yet robust method can achieve competitive performance in detecting deepfakes.
 # 2.  SYSTEM ARCHITECTURE
 
-![System Architecture (1)](https://github.com/Abbishek01/deep_fake-detection_model-/assets/93364595/1213ab6c-8d2b-401a-b095-969045ace63e)
-# 3. DATASET 
+![System Architecture (1)](https://github.com/user-attachments/assets/84110159-4aad-4311-b053-b7a91eaca728)
+
+
+# 3. DATASET
+
 To enhance the model's efficiency for real-time prediction, we have compiled data from various sources, including FaceForensics++, the Deepfake Detection Challenge (DFDC), and Celeb-DF. By combining these datasets, we created a new, diverse dataset designed for accurate and real-time detection of various video types. To prevent training bias, our dataset consists of an equal distribution of 50% real and 50% fake videos.
 
 The DFDC dataset includes some videos with altered audio, which are outside the scope of this project. Therefore, we preprocessed the DFDC dataset to exclude audio-altered videos using a Python script.
 
 After preprocessing, we selected 1,500 real and 1,500 fake videos from the DFDC dataset, 1,000 real and 1,000 fake videos from the FaceForensics++ (FF) dataset, and 500 real and 500 fake videos from the Celeb-DF dataset. This process resulted in a balanced dataset comprising 3,000 real and 3,000 fake videos, totaling 6,000 videos.
-![Screenshot (8)](https://github.com/Abbishek01/deep_fake-detection_model-/assets/93364595/4f3e5754-341c-43c1-9d34-4f435b6744fd)
+
+
+![Screenshot (8)](https://github.com/user-attachments/assets/a93679e3-328e-4c50-9a11-e361abd49f22)
+
 
 # 4.DATA PROCESSING 
 
@@ -29,8 +35,9 @@ To enable the adaptive learning rate Adam[21] optimizer with the model parameter
 
 # 7. RESULT 
 
+![Screenshot (9)](https://github.com/user-attachments/assets/35128e2d-0d5f-4d9b-92f9-2e8d26cdee4d)
 
-![image](https://github.com/Abbishek01/deep_fake-detection_model-/assets/93364595/a05cf93e-1d49-4790-8d1a-0207b76c50f3)
+
 
 
 The above image represents the results achieved on our dataset by the model. The accuracy in the image depicts the test accuracy.
