@@ -41,10 +41,10 @@ Django
 `pip install -r requirements.txt`
 
 #### Step 5: Install applications required for running requirements
-
-`pytorch - (https://pytorch.org/)`
-`cmake - (https://cmake.org/download/)`
-`Microsoft C++ Build Tools - (https://visualstudio.microsoft.com/visual-cpp-build-tools/)`
+https
+- pytorch - (https://pytorch.org/)`
+- cmake - (https://cmake.org/download/)`
+- Microsoft C++ Build Tools - (https://visualstudio.microsoft.com/visual-cpp-build-tools/)`
 
 #### Step 6: Copy Models
 
