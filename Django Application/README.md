@@ -40,13 +40,19 @@ Django
 
 `pip install -r requirements.txt`
 
-#### Step 5: Copy Models
+#### Step 5: Install applications required for running requirements
 
-`Copy your trained model to the models folder i.e Django Application/models/`
+`pytorch - (https://pytorch.org/)`
+`cmake - (https://cmake.org/download/)`
+`Microsoft C++ Build Tools - (https://visualstudio.microsoft.com/visual-cpp-build-tools/)`
 
-- You can download our trained models from [Google Drive](https://drive.google.com/drive/folders/1UX8jXUXyEjhLLZ38tcgOwGsZ6XFSLDJ-?usp=sharing)
+#### Step 6: Copy Models
 
-### Step 6: Run project
+`Copy your trained model to the " models " folder i.e Django Application/models/`
+https
+- You can download our trained models from [Google Drive](https://drive.google.com/drive/folders/1RWCUoqoC5et2X4E7c1nSVfS9OHRjSTKi?usp=sharing)
+
+### Step 7: Run project
 
 `python manage.py runserver`
 
